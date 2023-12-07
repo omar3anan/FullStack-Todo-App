@@ -1,0 +1,18 @@
+.todos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.todos-table th,
+.todos-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.todos-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}

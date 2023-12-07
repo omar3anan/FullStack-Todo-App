@@ -1,0 +1,43 @@
+.navbar {
+  display: flex; /* make the navbar a flex container */
+  justify-content: space-between; /* distribute the space between the navbar items and the logout button */
+  background-color: #4caf50;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  display: inline; /* make the list items inline */
+}
+
+.navbar li a {
+  display: inline-block;
+  color: white; /* change the color as per your preference */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
